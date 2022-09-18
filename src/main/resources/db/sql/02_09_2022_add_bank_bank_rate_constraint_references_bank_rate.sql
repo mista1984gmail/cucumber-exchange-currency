@@ -1,0 +1,1 @@
+alter table if exists bank_bank_rate add constraint FKnhd5pnwueb8jqbjjxq9i3td9h foreign key (bank_rate_id) references bank_rate

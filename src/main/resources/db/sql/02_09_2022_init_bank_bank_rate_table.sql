@@ -1,0 +1,1 @@
+create table bank_bank_rate (bank_id int8 not null, bank_rate_id int8 not null, primary key (bank_id, bank_rate_id))

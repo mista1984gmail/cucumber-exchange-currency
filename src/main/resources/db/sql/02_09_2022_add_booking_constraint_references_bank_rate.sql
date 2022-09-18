@@ -1,0 +1,1 @@
+alter table if exists booking add constraint FKlnnelfsha11xmo2ndjq66fvro foreign key (customer_id) references customer

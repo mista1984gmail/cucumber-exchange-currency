@@ -1,0 +1,1 @@
+alter table if exists booking add constraint FK1r8rbninbxb3ntak5yy31ui2t foreign key (bank_rate_id) references bank_rate

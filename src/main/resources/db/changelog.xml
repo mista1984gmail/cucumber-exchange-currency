@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet author="s.mitskevich" id="sql/02_09_2022_init_bank_table.sql">
+        <sqlFile
+                path="sql/02_09_2022_init_bank_table.sql"
+                splitStatements="false"
+                relativeToChangelogFile="true"/>
+    </changeSet>
+    <changeSet author="s.mitskevich" id="sql/02_09_2022_init_bank_bank_rate_table.sql">
+        <sqlFile
+                path="sql/02_09_2022_init_bank_bank_rate_table.sql"
+                splitStatements="false"
+                relativeToChangelogFile="true"/>
+    </changeSet>
+    <changeSet author="s.mitskevich" id="sql/02_09_2022_init_bank_rate_table.sql">
+        <sqlFile
+                path="sql/02_09_2022_init_bank_rate_table.sql"
+                splitStatements="false"
+                relativeToChangelogFile="true"/>
+    </changeSet>
+    <changeSet author="s.mitskevich" id="sql/02_09_2022_init_booking_table.sql">
+        <sqlFile
+                path="sql/02_09_2022_init_booking_table.sql"
+                splitStatements="false"
+                relativeToChangelogFile="true"/>
+    </changeSet>
+    <changeSet author="s.mitskevich" id="sql/02_09_2022_init_customer_table.sql">
+        <sqlFile
+                path="sql/02_09_2022_init_customer_table.sql"
+                splitStatements="false"
+                relativeToChangelogFile="true"/>
+    </changeSet>
+    <changeSet author="s.mitskevich" id="sql/02_09_2022_add_bank_bank_rate_constraint_references_bank_rate.sql">
+        <sqlFile
+                path="sql/02_09_2022_add_bank_bank_rate_constraint_references_bank_rate.sql"
+                splitStatements="false"
+                relativeToChangelogFile="true"/>
+    </changeSet>
+    <changeSet author="s.mitskevich" id="sql/02_09_2022_add_bank_bank_rate_constraint_references_bank.sql">
+        <sqlFile
+                path="sql/02_09_2022_add_bank_bank_rate_constraint_references_bank.sql"
+                splitStatements="false"
+                relativeToChangelogFile="true"/>
+    </changeSet>
+    <changeSet author="s.mitskevich" id="sql/02_09_2022_add_booking_constraint_references_bank_rate.sql">
+        <sqlFile
+                path="sql/02_09_2022_add_booking_constraint_references_bank_rate.sql"
+                splitStatements="false"
+                relativeToChangelogFile="true"/>
+    </changeSet>
+    <changeSet author="s.mitskevich" id="sql/02_09_2022_add_booking_constraint_references_bank.sql">
+        <sqlFile
+                path="sql/02_09_2022_add_booking_constraint_references_bank.sql"
+                splitStatements="false"
+                relativeToChangelogFile="true"/>
+    </changeSet>
+</databaseChangeLog>
